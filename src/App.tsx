@@ -966,8 +966,7 @@ export default function App() {
           </div>
 
           <div className="text-center md:text-right text-[10px]">
-            <p>&copy; {new Date().getFullYear()} Priya Fitness. All Rights Reserved.</p>
-            <p className="mt-1">Built with high-contrast, premium, science-backed lifestyle values.</p>
+            <p>&copy; {new Date().getFullYear()} Prima Wellness Lab. All Rights Reserved.</p>
           </div>
 
         </div>

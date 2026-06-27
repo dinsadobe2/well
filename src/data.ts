@@ -5,7 +5,8 @@ export const BRAND_CONTACTS = {
   phone: "+91-9176667744",
   phoneFormatted: "+91 91766 67744",
   consultationUrl: "https://forms.gle/djZGq3oj19XD6gSr9",
-  transformationUrl: "https://forms.gle/EKkH2a4S2nxMXng17"
+  transformationUrl: "https://forms.gle/EKkH2a4S2nxMXng17",
+  insta: "https://www.instagram.com/priya.thephoenix"
 };
 
 export const PILLARS: Pillar[] = [
