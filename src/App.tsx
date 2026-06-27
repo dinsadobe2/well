@@ -79,7 +79,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-clay-800 font-sans">
-                Priya <span className="text-charcoal font-light">Fitness</span>
+                PRIMA<span className="text-charcoal font-light">WELLNESS LAB</span>
               </span>
               {/* <span className="text-[10px] tracking-wider text-sage font-medium uppercase">
                 Certified Coaching
