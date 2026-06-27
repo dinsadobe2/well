@@ -1,0 +1,6 @@
+{
+  "name": "Priya Fitness Coaching",
+  "description": "Premium science-backed online strength coaching and sustainable nutrition guidance curated for busy professionals, new mothers, and beginners by Coach Priya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
