@@ -34,6 +34,7 @@ import {
 import { BRAND_CONTACTS, PILLARS, FOR_YOU_PROFILES, DIFFERENCES, BENEFITS, PLANS, FAQS } from "./data";
 import { Plan } from "./types";
 import trainerImg from "./assets/images/trainer_priya_1782100339535.jpg";
+import { Analytics } from "@vercel/analytics/react";
 
 // Explicit icon rendering mapper helper
 function renderIcon(iconName: string, className?: string) {
@@ -971,6 +972,7 @@ export default function App() {
 
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
