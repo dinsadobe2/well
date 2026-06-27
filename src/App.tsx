@@ -81,9 +81,9 @@ export default function App() {
               <span className="text-xl font-bold tracking-tight text-clay-800 font-sans">
                 Priya <span className="text-charcoal font-light">Fitness</span>
               </span>
-              <span className="text-[10px] tracking-wider text-sage font-medium uppercase">
+              {/* <span className="text-[10px] tracking-wider text-sage font-medium uppercase">
                 Certified Coaching
-              </span>
+              </span> */}
             </div>
           </div>
 
