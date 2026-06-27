@@ -79,7 +79,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-clay-800 font-sans">
-                PRIMA<span className="text-charcoal font-light">WELLNESS LAB</span>
+                PRIMA<span className="text-charcoal font-light"> WELLNESS LAB</span>
               </span>
               {/* <span className="text-[10px] tracking-wider text-sage font-medium uppercase">
                 Certified Coaching
@@ -150,7 +150,7 @@ export default function App() {
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.25, ease: "easeInOut" }}
-              className="md:hidden border-b border-sand bg-cream absolute top-20 left-0 w-full overflow-hidden shadow-lg"
+              className="md:hidden border-b border-sand bg-cream absolute top-20 left-0 w-full max-h-[calc(100vh-5rem)] overflow-y-auto touch-pan-y shadow-lg"
             >
               <div className="px-5 py-6 flex flex-col gap-5 bg-cream">
                 <button 
