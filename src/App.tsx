@@ -22,6 +22,7 @@ import {
   Check, 
   CheckCircle2, 
   Phone, 
+  Whatsapp,
   Mail, 
   ChevronDown, 
   Award,
@@ -866,7 +867,7 @@ export default function App() {
                 </div>
                 <h3 className="text-lg font-bold text-cream">Call or Message Priya</h3>
                 <p className="text-[11px] text-clay-100/60 leading-normal">
-                  Inquire directly via phone call or WhatsApp query text. We resolve program parameters and support options.
+                  Inquire directly via phone call or WhatsApp/Instagram query text. We resolve program parameters and support options.
                 </p>
               </div>
               <div className="pt-2">
@@ -875,8 +876,19 @@ export default function App() {
                   className="text-lg font-bold text-clay-200 hover:text-white transition-colors tracking-tight flex items-center gap-2"
                 >
                   {BRAND_CONTACTS.phoneFormatted}
+                  
                 </a>
               </div>
+              <div className="pt-2">
+                <a 
+                  href={BRAND_CONTACTS.insta} 
+                  className="text-lg font-bold text-clay-200 hover:text-white transition-colors tracking-tight flex items-center gap-2"
+                >
+                  <Instagram size={22} /> {BRAND_CONTACTS.instaid}
+                  
+                </a>
+              </div>              
+              
             </div>
 
             {/* Email Support */}
